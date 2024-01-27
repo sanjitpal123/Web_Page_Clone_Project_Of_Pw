@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background-image.png);
+    background-size: cover;
+}
+#header{
+    display: flex;
+    gap:20px;
+    width: 100%;
+    height: 20px;
+    padding-top: 1rem;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+    cursor: pointer;
+}
+#search{
+    display: flex;
+    gap:5px;
+}
+#SearchButton{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: #FF0090;
+    border-color:  rgb(255, 0, 55);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    
+}
+#searchicon{
+    margin-top: 5px;
+}
+#main{
+height: 90%;
+width: 100%;
+display: flex;
+
+}
+#left{
+    height: 90%;
+    width: 50%;
+}
+#right{
+    background-image: url(hero-image.png);
+    background-size: cover;
+    height: 90%;
+    width: 50%;
+    position: relative;
+
+}
+#AllInfo{
+    width: 45%;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    
+}
+#AllInfo p{
+    margin-top:10px;
+}
+h1{
+    font-size: xxx-large;
+
+}
+
+#left{
+    height: 90%;
+    width: 50%;
+    margin-top: 5rem; 
+    position: relative;
+}
+#button{
+    margin-top: 2rem;
+    gap:10px;
+
+    display: flex;
+}
+#ApplyOnline{
+    background-color: #FF0090;
+    height: 30px;
+    color: white;
+    width: 150px;
+    
+    border-color: #FF0090;
+    font-size: 16px;
+    cursor: pointer;;
+}
+#LoanCalculator{
+    font-size: 16px;
+    color: #FF0090;
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-color: #FF0090;
+    cursor: pointer;
+}
+#Face_you_link_insta{
+    margin-top: 15rem;
+    display:flex;
+    gap:5px;
+}
+span{
+
+    margin-left: 6PX;
+    font-weight: bolder;
+}
+#car {
+    height: 50px;
+    width: 130px;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px 0px black; 
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: -3rem;
+}
+
+#car img{
+    height: 24px;
+    margin-top: 11px;
+    margin-left: 13px;
+}
+#car span{
+    margin-top: 13px;
+}
+
+#Home {
+    height: 50px;
+    width: 130px;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px 0px black; 
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 35rem;
+}
+
+#Home img{
+    height: 24px;
+    margin-top: 11px;
+    margin-left: 13px;
+}
+#Home span{
+    margin-top: 13px;
+}
