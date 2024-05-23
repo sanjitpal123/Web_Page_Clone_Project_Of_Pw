@@ -5,7 +5,7 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(background-image.png);
+    background-image: url(background-image.png); 
     background-size: cover;
 }
 #header{
